@@ -13,7 +13,7 @@ namespace Repaso1D
 
         public decimal sueldoMes { get; set; }
 
-        public string Mes { get; set; }
+        public string Mes { get; set; }  //saber que mes esta facturando
 
 
     }

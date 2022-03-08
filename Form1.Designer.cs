@@ -42,35 +42,35 @@ namespace Repaso1D
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(63, 78);
+            this.dataGridView1.Location = new System.Drawing.Point(91, 78);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 25;
-            this.dataGridView1.Size = new System.Drawing.Size(240, 150);
+            this.dataGridView1.Size = new System.Drawing.Size(324, 150);
             this.dataGridView1.TabIndex = 0;
             // 
             // dataGridView2
             // 
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(377, 78);
+            this.dataGridView2.Location = new System.Drawing.Point(478, 78);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowTemplate.Height = 25;
-            this.dataGridView2.Size = new System.Drawing.Size(240, 150);
+            this.dataGridView2.Size = new System.Drawing.Size(324, 150);
             this.dataGridView2.TabIndex = 1;
             // 
             // dataGridView3
             // 
             this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView3.Location = new System.Drawing.Point(696, 78);
+            this.dataGridView3.Location = new System.Drawing.Point(863, 78);
             this.dataGridView3.Name = "dataGridView3";
             this.dataGridView3.RowTemplate.Height = 25;
-            this.dataGridView3.Size = new System.Drawing.Size(240, 150);
+            this.dataGridView3.Size = new System.Drawing.Size(379, 150);
             this.dataGridView3.TabIndex = 2;
             // 
             // buttonCargarDatos
             // 
-            this.buttonCargarDatos.Location = new System.Drawing.Point(91, 311);
+            this.buttonCargarDatos.Location = new System.Drawing.Point(366, 283);
             this.buttonCargarDatos.Name = "buttonCargarDatos";
-            this.buttonCargarDatos.Size = new System.Drawing.Size(152, 39);
+            this.buttonCargarDatos.Size = new System.Drawing.Size(204, 67);
             this.buttonCargarDatos.TabIndex = 3;
             this.buttonCargarDatos.Text = "Cargar";
             this.buttonCargarDatos.UseVisualStyleBackColor = true;
@@ -78,9 +78,9 @@ namespace Repaso1D
             // 
             // buttonCalcular
             // 
-            this.buttonCalcular.Location = new System.Drawing.Point(827, 311);
+            this.buttonCalcular.Location = new System.Drawing.Point(972, 283);
             this.buttonCalcular.Name = "buttonCalcular";
-            this.buttonCalcular.Size = new System.Drawing.Size(109, 45);
+            this.buttonCalcular.Size = new System.Drawing.Size(165, 67);
             this.buttonCalcular.TabIndex = 4;
             this.buttonCalcular.Text = "Calcular";
             this.buttonCalcular.UseVisualStyleBackColor = true;
@@ -90,7 +90,7 @@ namespace Repaso1D
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1185, 473);
+            this.ClientSize = new System.Drawing.Size(1280, 473);
             this.Controls.Add(this.buttonCalcular);
             this.Controls.Add(this.buttonCargarDatos);
             this.Controls.Add(this.dataGridView3);
